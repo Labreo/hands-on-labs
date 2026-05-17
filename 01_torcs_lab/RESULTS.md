@@ -1,2 +1,3 @@
 Copy this resutls file and paste it into your own repo to showcase your results! Lab results do not count towards your score you'll receive for your submission, but we encourage you to show off what you learned in the lab!
 # Add your experiment results and reflections here
+Experimenting with the TORCS autonomous driving agent in this lab was fascinating, but it highlighted a massive gap: simulated environments are perfect, but the real world is messy. Watching the TORCS agent navigate a fixed, predictable track is what inspired the core architecture for PitWall. Instead of keeping AI in the simulator, PitWall brings IBM Granite out to the actual race track, processing messy, real-world GoPro telemetry instead of clean simulated data.
